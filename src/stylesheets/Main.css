@@ -1,0 +1,143 @@
+.ion_content{
+  --ion-background-color:#121212!important;
+}
+ion-input{
+  --color:#ffffff
+}
+.main_content{
+  text-align:center;
+}
+--ion-label {
+  color: white;
+}
+.imgSize {
+  size: 50%!important
+}
+#large_logo{
+  width:70%;
+  height:50%!important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header1 {
+  text-align:center;
+  font-size:5em!important;
+  color:white;
+  font-family: 'Caviar Dreams';
+  margin:0px!important;
+  padding:0px!important;
+}
+.header2 {
+  text-align:center;
+  font-size:3em!important;
+  color:white;
+  font-family: 'Caviar Dreams';
+  margin:0px!important;
+  padding:0px!important;
+  margin-top:19.25px!important;
+  margin-bottom:19.25px!important;
+}
+h2 {
+  font-size:1.5em!important;
+  color:white;
+}
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url("/assets/fonts/CaviarDreams.ttf");
+}
+ion-button{
+  margin-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+ion-item{
+  color:white!important;
+}
+ion-icon{
+  color:white;
+}
+.sample_questions{
+  font-size:20px;
+}
+ion-grid{
+  --ion-grid-padding:0px;
+  height:100%!important;
+}
+ion-col{
+  --ion-grid-padding:0px;
+  --ion-grid-padding:0px;
+  padding:0px!important;
+  background-color:#262626!important;
+}
+ion-row{
+  height:100%;
+}
+.swipe_content{
+  height:100%;
+}
+.insert_message{
+  background-color:white!important;
+  color:green!important;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:15px;
+}
+.top_banner{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:50px;
+  padding-bottom:50px;
+  box-shadow: 0px 3px 4px -3px black;
+}
+.dark_text{
+  color:black;
+}
+.home_banner{
+    background-image: url("/assets/leafs.png");
+}
+.resources_banner{
+    background-image: url("/assets/sun_set.png");
+}
+.settings_banner{
+    background-image: url("/assets/snowy_mountains.png");
+}
+.daily_questions_banner{
+  background-image: url("/assets/green_yellow_leaves.jpg");
+}
+.create_questions_banner{
+  background-image: url("/assets/strone_bridge_and_trees.jpg");
+}
+.messenger_banner{
+  background-image: url("/assets/grassy_mountains.jpg");
+}
+.statistics_banner{
+  background-image: url("/assets/koi_pond.jpg");
+}
+.page_content{
+  margin-left:2%;
+  margin-right:2%;
+  margin-top:10px;
+  --ion-background-color:#36515b!important;
+}
+.card_title{
+  color:white;
+  padding-top:15px;
+}
+.quote_card_content{
+  color:white;
+}
+.phone_number{
+  font-weight: bold;
+}
+.resource_text{
+  font-size:1em;
+}
+#talkjs-container{
+  height:500px;
+}
+.alert-wrapper.sc-ion-alert-md {
+  max-width:100%!important;
+}

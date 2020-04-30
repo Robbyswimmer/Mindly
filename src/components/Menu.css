@@ -1,0 +1,15 @@
+
+#menu_content {
+  --ion-background-color:#32546B!important;
+
+}
+
+ion-title{
+  color:white!important;
+}
+.menu_button{
+  --color:white!important;
+}
+.side_menu{
+  box-shadow: 10px 10px!important;
+}

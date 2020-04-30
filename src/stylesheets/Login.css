@@ -1,0 +1,71 @@
+.login_ion_content{
+  --ion-background-color:#383838!important;
+  background-color:#383838!important;
+}
+ion-input{
+  --color:#ffffff;
+}
+.login_item{
+  margin-left:10%;
+  margin-right:10%;
+  background-color:#32546B!important;
+  border-radius:10px !important;
+  --ion-background-color:transparent!important;
+  background-color:transparent!important;
+  border-style: solid;
+}
+#large_logo{
+  width:100%;
+  height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url("/assets/fonts/CaviarDreams.ttf");
+}
+.login_buttons{
+  margin-top:10px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:10px;
+}
+.error_message{
+  background-color:white!important;
+  color:red!important;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:15px;
+}
+.login_page{
+  background-image: url("/assets/starry-sky-over-mountains-2469122.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login_header{
+  margin-top:20%;
+  margin-bottom:10%;
+  text-align:center;
+  font-size:8em!important;
+  color:white;
+  font-family: 'Caviar Dreams';
+}
+.login_main_content{
+  text-align:center;
+  background-color:transparent!important;
+}
+.email_item{
+  margin-bottom:1%;
+
+}
+.password_icon{
+  margin-top:25px;
+  color:white;
+  margin-right:1%;
+}
+.input_label{
+  --color:white!important;
+  color:white!important;
+}

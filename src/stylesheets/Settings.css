@@ -1,0 +1,16 @@
+.settings_avatar{
+  width:96px!important;
+  height:96px!important;
+  margin-bottom:10px;
+}
+.settings_button{
+  margin:0px;
+  margin-left:13px;
+}
+.button_item{
+  margin-left:-16px;
+}
+.place_holder_color{
+  color:lightgray!important;
+  text-align:right;
+}

@@ -1,0 +1,18 @@
+.sign_up_header{
+  margin-top:20%;
+  margin-bottom:10%;
+  text-align:center;
+  font-size:6em!important;
+  color:white;
+  font-family: 'Caviar Dreams';
+}
+.sign_up_page{
+  background-image: url("/assets/starry-sky-over-mountains-2469122.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.transparent{
+  opacity: 0.95;
+  --ion-background-color:#121212!important;
+}
