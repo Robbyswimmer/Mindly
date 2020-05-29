@@ -1,5 +1,19 @@
 # Mindly
-This is a mental health tracking app that was built with React Native, Ionic, MongoDB, NodeJS, and some other technologies for a Junior Design class.
+A mental health tracking app that allows users to rate their own mental health, interface with their therapists, access critical mental health resources, and track their mental health over time.
 
 # What is Mindly
 <img src="/mindly-images/mindly-signin.png" alt="Mindly" width="250"/>
+
+Mindly is a web / mobile app that was built with by a 5-person team during an engineering design class. The purpose of the app is to track the mental health of users and provide them with relevant statistics about their mental health, resources to help improve mental health, and instant messaging with their therapist if they have one. The app relies on users answering questions about their mental health on a daily basis, and their responses to these questions are saved to their profiles where the data is parsed and turned into useful information for the user. Based on the user's responses to their questions, the app can provide recommendations for resources that the user can access to improve their mental health. Additionally, if the user feels the app's standard set of questions do not fully cover their personal needs, the user can generate new questions that are automatically added to the question set for that user – questions can also be provided by a user's therapist. User's answers are judged based on two separate numerical scales used in psychology so that feedback from the app can be as accurate as possible – see "Assessing Mental Health" below. The tech stack used to build Mindly includes React Native, the Ionic Framework for React, NodeJS, Capacitor, MongoDB, and more – see "Technology Used to Build Mindly" for more information.
+
+## Design of Mindly
+
+## Technology Used to Build Mindly
+
+## Core Features
+
+## Assessing Mental Health
+
+In order to assess mental health numerically in Mindly a custom scoring system had to be built. This scoring system is a combination of parts of two existing numerical scales used in psychology research: (1) [The Satisfaction With Life Scale (SWLS)](http://labs.psychology.illinois.edu/~ediener/SWLS.html) and, (2) the [Scale of Positive and Negative Experience (SPANE)](http://labs.psychology.illinois.edu/~ediener/SPANE.html).
+
+
