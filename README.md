@@ -28,7 +28,7 @@ The following core technologies were used to build Mindly:
 
 In developing Mindly, it was important that the app would be cross-platform. There are only a few well developed tools that can be used to easily build cross-platform, one of which is React Native. React Native was supplemented by the Ionic Framework which has a robust component system that made developing the appearance of the app incredibly simple.  The following example is of the code it took to generate the main card on the homepage of the app:
 
-```JavaScript
+```C++
  <IonPage>
       <IonContent fullscreen={true} class="ion_content">
         <IonGrid>
