@@ -28,8 +28,9 @@ The following core technologies were used to build Mindly:
 
 In developing Mindly, it was important that the app would be cross-platform. There are only a few well developed tools that can be used to easily build cross-platform, one of which is React Native. React Native was supplemented by the Ionic Framework which has a robust component system that made developing the appearance of the app incredibly simple.  The following example is of the code it took to generate the main card on the homepage of the app:
 
-```Typescript
- <IonPage>
+```JavaScript
+  return (
+    <IonPage>
       <IonContent fullscreen={true} class="ion_content">
         <IonGrid>
           <div className="swipe_content" {...handlers}>
@@ -58,6 +59,7 @@ In developing Mindly, it was important that the app would be cross-platform. The
        </IonGrid>
      </IonContent>
    </IonPage>
+  );
 ```
 The most difficult part of development ended up being the server implementation. From the beginning MongoDB had been chosen as the favored database option, but there was a lot of questions about the best way to have the app connect to the database. Eventually a NodeJS server had to be written from scratch to handle all of the database connections. In order for this app to be published the NodeJS server would have to be migrated to AWS or something similar, but this could be executed with relative ease. 
 
