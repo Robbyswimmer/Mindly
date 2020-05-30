@@ -10,6 +10,10 @@ Based on the user's responses to their questions, the app can provide recommenda
 
 ## Design of Mindly
 
+The design of Mindly was approached with scalability in mind. It was important to build an app that could be used by individuals, but it was also important to make sure that eventually the app could be used as an administration tool. The original idea for the app had even more integration with therapists, but due to time constraints some of those features had to be removed. After deliberating on the design for quite some time, the following design scheme was created: 
+
+![High Level Design](/mindly-images/Screen Shot 2020-04-20 at 2.01.47 PM.png)
+
 ## Technology Used to Build Mindly
 
 ## Core Features
