@@ -18,6 +18,32 @@ This is the final design of the app that was built, and all of the features pres
 
 ## Technology Used to Build Mindly
 
+The following core technologies were used to build Mindly:
+
+* React Native
+* React Native Ionic Framework
+* NodeJS
+* MongoDB
+* Capacitor
+
+In developing Mindly, it was important that the app would be cross-platform. There are only a few well developed tools that can be used to easily build cross-platform, one of which is React Native. React Native was supplemented by the Ionic Framework which has a robust component system that made developing the appearance of the app incredibly simple.  The following example is all of the code it took to generate the main card on the homepage of the app:
+
+```react native
+<IonCard class="page_content">
+                    <IonCardContent>
+                      <IonList>
+                        <IonItem routerLink='/daily_questions'><IonIcon icon={clipboardOutline} slot="start"/>Daily Questionaire</IonItem>
+                        <IonItem routerLink='/create_questions'><IonIcon icon={pencilOutline} slot="start"/>Create Questionaire</IonItem>
+                        <IonItem routerLink='/calendar'><IonIcon icon={calendarOutline} slot="start"/>Calendar View</IonItem>
+                        <IonItem routerLink='/Messenger'><IonIcon icon={mailOutline} slot="start"/>Contact Theraprist</IonItem>
+                      </IonList>
+                    </IonCardContent>
+                  </IonCard>
+```
+The most difficult part of development ended up being the server implementation. From the beginning MongoDB had been chosen as the favored database option, but there was a lot of questions about the best way to have the app connect to the database. Eventually a NodeJS server had to be written from scratch to handle all of the database connections. In order for this app to be published the NodeJS server would have to be migrated to AWS or something similar, but this could be executed with relative ease. 
+
+Beyond the server issues, Capacitor was another technology that had to be utilized to make the app perform as expected. One of the virtues of Capacitor is its simple integration with Ionic, which makes it an easy choice when building cross-platform applications with Ionic. Using Capacitor, the final version of this app is capable of running on the web, iOS, and Android with no discernible performance differences, which fulfills one of our original design goals for the app.
+
 ## Core Features
 
 * Answer questions about your current mental health
