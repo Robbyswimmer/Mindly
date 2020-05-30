@@ -75,7 +75,7 @@ Beyond the server issues, Capacitor was another technology that had to be utiliz
 * Access important mental health resources when you need them the most
 * View the statistics page to gain a better understanding of your mental health over time
 
-## Assessing Mental Health
+## How Mindly Assesses Mental Health
 
 In order to assess mental health numerically in Mindly a custom scoring system had to be built. This scoring system is a combination of parts of two existing numerical scales used in psychology research: (1) [The Satisfaction With Life Scale (SWLS)](http://labs.psychology.illinois.edu/~ediener/SWLS.html) and, (2) the [Scale of Positive and Negative Experience (SPANE)](http://labs.psychology.illinois.edu/~ediener/SPANE.html). Using these two scales, a reasonable range of inputs can be recorded and measured on a numerical scale. 
 
