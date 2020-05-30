@@ -14,6 +14,8 @@ The design of Mindly was approached with scalability in mind. It was important t
 
 ![High Level Design](https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/Screen%20Shot%202020-04-20%20at%202.01.47%20PM.png)
 
+This is the final design of the app that was built, and all of the features present in this design scheme were implemented. One of the advantages of this design is that it would be relatively easy to scale from this point in development. This design still allows for individual use and implementation with health care professionals, but it could be scaled for broader application if necessary. Additionally, it would simple to expand the number of resources available to users and add more question related content to the app. While the app does have a starting set of 30 questions that rotate on a daily basis, to add more questions to the service it would be as simple as inserting them into the database and the app would automatically have access to the new questions. 
+
 ## Technology Used to Build Mindly
 
 ## Core Features
