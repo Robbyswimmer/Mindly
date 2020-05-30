@@ -8,7 +8,7 @@ Mindly is a web / mobile app that was built by a 5-person team during an enginee
 
 Based on the user's responses to their questions, the app can provide recommendations for resources that the user can access to improve their mental health. Additionally, if the user feels the app's standard set of questions do not fully cover their personal needs, the user can generate new questions that are automatically added to the question set for that user – questions can also be provided by a user's therapist. User's answers are judged based on two separate numerical scales used in psychology so that feedback from the app can be as accurate as possible – see "Assessing Mental Health" below. The tech stack used to build Mindly includes React Native, the Ionic Framework for React, NodeJS, Capacitor, MongoDB, and more – see "Technology Used to Build Mindly" for more information.
 
-## Design of Mindly
+## The Design of Mindly
 
 The design of Mindly was approached with scalability in mind. It was important to build an app that could be used by individuals, but it was also important to make sure that eventually the app could be used as an administration tool. The original idea for the app had even more integration with therapists, but due to time constraints some of those features had to be removed. After deliberating on the design for quite some time, the following design scheme was created: 
 
