@@ -14,10 +14,10 @@ Based on the user's responses to their questions, the app can provide recommenda
 
 ## Core Features
 
-* Answer questions about current mental health
-* View previous days that you answered on the calendar view page
-* Instant message with your therapist
-* Create your own questions for monitoring your mental health
+* Answer questions about your current mental health
+* View your previous days that in the calendar view 
+* Communicate with your therapist through custom questions and instant messaging
+* Create your own personal questions for monitoring your mental health
 * Create a custom profile with all relevant personal information
 * Access important mental health resources when you need them the most
 * View the statistics page to gain a better understanding of your mental health over time
