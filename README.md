@@ -2,7 +2,7 @@
 A mental health tracking app that allows users to rate their own mental health, interface with their therapists, access critical mental health resources, and track their mental health over time.
 
 # What is Mindly
-<img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-signin.png?raw=true" alt="Mindly" width="275" height="500"/> <img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-home.JPG?raw=true" alt="Mindly" width="275" height="500"/> <img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-stats.JPG?raw=true" alt="Mindly" width="275" height="500"/>
+<img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-signin.png?raw=true" alt="Mindly" width="250" height="500"/> <img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-home.JPG?raw=true" alt="Mindly" width="250" height="500"/> <img src="https://github.com/Robbyswimmer/Mindly/blob/master/mindly-images/mindly-stats.JPG?raw=true" alt="Mindly" width="250" height="500"/>
 
 Mindly is a web / mobile app that was built by a 5-person team during an engineering design class. The purpose of the app is to track the mental health of users and provide them with relevant statistics about their mental health, resources to help improve mental health, and instant messaging with their therapist if they have one. The app relies on users answering questions about their mental health on a daily basis, and their responses to these questions are saved to their profiles where the data is parsed and turned into useful information for the user. 
 
